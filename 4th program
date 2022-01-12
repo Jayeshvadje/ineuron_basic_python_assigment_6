@@ -1,0 +1,8 @@
+#Python Program to calculate the natural logarithm of any number
+#import the numpy 
+
+import numpy
+a=float(input("enter the number\n"))
+b=numpy.log(a)
+#print the natural log
+print("the natural log of ",a," is ",b)
