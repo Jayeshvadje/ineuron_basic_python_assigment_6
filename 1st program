@@ -1,0 +1,10 @@
+#Python Program to Display Fibonacci Sequence Using Recursion
+def fib(n):
+    a=1
+    b=1
+    for i in range(n):
+        yield a,i
+        a,b=b,a+b
+
+for i in  fib(6):
+    print(i)
